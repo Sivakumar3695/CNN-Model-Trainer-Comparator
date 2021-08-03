@@ -23,5 +23,4 @@ Hence, optimal dropout is necessary for a better model training.
 This project supports the comparison for two different models and provide details like test accuracy and mean loss after each epoch. A sample graph generated from this project is given below:
 ![model_comparison](https://user-images.githubusercontent.com/29046579/128039375-e9580296-eb75-4c8b-8892-e56570ad2ade.png)
 
-
-
+In the above image, the model training of the second model is very slow becuase of the low learning rate(0.001). The same model shows good improvements when using higher learning rate of the order of (0.01 or 0.1)
