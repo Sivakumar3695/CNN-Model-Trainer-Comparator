@@ -1,1 +1,5 @@
 /data/
+/model_comparison.png
+/venv/
+.idea/
+__pycache__/
