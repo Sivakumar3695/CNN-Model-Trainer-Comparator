@@ -20,7 +20,7 @@ Hence, optimal dropout is necessary for a better model training.
 6. Inception layers got potential in shaping the accuracy of a model. The introduction of two Inception layers rose my model's test precision from around 76% to 83.74%.
 7. Fine-tuning of hyper-paramters like epoch, batch size and weight initialization techniques are essential handlings in every model training.
 
-This project supports the comparison for two different models and provide details like test accuracy and mean loss after each epoch. A sample graph generated from this project is given below:
+This project supports the comparison of two different models and provide details like test accuracy and mean loss after each epoch. A sample graph generated from this project is given below:
 ![model_comparison](https://user-images.githubusercontent.com/29046579/128039375-e9580296-eb75-4c8b-8892-e56570ad2ade.png)
 
 In the above image, the model training of the second model is very slow becuase of the low learning rate(0.001). The same model shows good improvements when using higher learning rate of the order of (0.01 or 0.1)
